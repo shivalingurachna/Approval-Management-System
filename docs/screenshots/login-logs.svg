@@ -1,0 +1,118 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 680" width="100%" height="100%" style="background:#0b0f19; font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">
+  <defs>
+    <linearGradient id="headerGrad2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#1e293b"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+    <filter id="shadow2" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#000000" flood-opacity="0.5"/>
+    </filter>
+  </defs>
+
+  <!-- Browser Window Wrapper -->
+  <rect x="20" y="20" width="1160" height="640" rx="12" fill="#0f172a" stroke="#334155" stroke-width="1.5" filter="url(#shadow2)"/>
+
+  <!-- Browser Title Bar -->
+  <path d="M 20 32 Q 20 20 32 20 L 1168 20 Q 1180 20 1180 32 L 1180 64 L 20 64 Z" fill="#1e293b"/>
+  <circle cx="46" cy="42" r="6" fill="#ef4444"/>
+  <circle cx="66" cy="42" r="6" fill="#f59e0b"/>
+  <circle cx="86" cy="42" r="6" fill="#10b981"/>
+  
+  <!-- Address Bar -->
+  <rect x="130" y="30" width="920" height="26" rx="6" fill="#0f172a" stroke="#334155" stroke-width="1"/>
+  <text x="145" y="47" fill="#94a3b8" font-size="12">https://approval-portal-production-9d74e9a4.up.railway.app/admin?tab=logs</text>
+  <rect x="1000" y="34" width="38" height="18" rx="4" fill="#10b981" fill-opacity="0.2"/>
+  <text x="1006" y="47" fill="#34d399" font-size="10" font-weight="600">LIVE</text>
+
+  <!-- Top App Navigation -->
+  <rect x="20" y="64" width="1160" height="54" fill="#111827" stroke="#1f2937" stroke-width="1"/>
+  <rect x="44" y="78" width="26" height="26" rx="6" fill="#3b82f6"/>
+  <text x="80" y="96" fill="#f8fafc" font-size="15" font-weight="700">Approval Portal</text>
+  <text x="195" y="96" fill="#64748b" font-size="12">|</text>
+  <text x="210" y="96" fill="#38bdf8" font-size="13" font-weight="600">Database Login Audit Logs</text>
+
+  <!-- Subheader -->
+  <text x="44" y="152" fill="#f8fafc" font-size="22" font-weight="700">Real-Time MongoDB Audit Logs</text>
+  <text x="44" y="174" fill="#94a3b8" font-size="13">Every authenticated login is automatically persisted to MongoDB with client IP address and timestamp</text>
+
+  <!-- Mode Tab Pills (Active: Logs) -->
+  <rect x="44" y="195" width="210" height="36" rx="8" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+  <text x="64" y="218" fill="#94a3b8" font-size="13" font-weight="500">👥 User Approvals</text>
+
+  <rect x="264" y="195" width="220" height="36" rx="8" fill="#3b82f6"/>
+  <text x="284" y="218" fill="#ffffff" font-size="13" font-weight="600">📜 Database Login Logs (Active)</text>
+
+  <!-- Logs Table Container -->
+  <rect x="44" y="250" width="1106" height="385" rx="10" fill="#111827" stroke="#1f2937" stroke-width="1"/>
+
+  <!-- Table Header -->
+  <rect x="44" y="250" width="1106" height="42" fill="#1e293b" rx="10"/>
+  <rect x="44" y="282" width="1106" height="10" fill="#1e293b"/>
+  <text x="64" y="276" fill="#94a3b8" font-size="12" font-weight="700">AUTHENTICATED USER</text>
+  <text x="260" y="276" fill="#94a3b8" font-size="12" font-weight="700">EMAIL</text>
+  <text x="500" y="276" fill="#94a3b8" font-size="12" font-weight="700">ROLE</text>
+  <text x="630" y="276" fill="#94a3b8" font-size="12" font-weight="700">ACCOUNT STATUS</text>
+  <text x="790" y="276" fill="#94a3b8" font-size="12" font-weight="700">IP ADDRESS</text>
+  <text x="940" y="276" fill="#94a3b8" font-size="12" font-weight="700">LOGIN TIMESTAMP (MONGODB)</text>
+
+  <!-- Log Row 1 -->
+  <line x1="44" y1="350" x2="1150" y2="350" stroke="#1f2937" stroke-width="1"/>
+  <circle cx="80" cy="322" r="14" fill="#3b82f6" fill-opacity="0.2"/>
+  <text x="75" y="327" fill="#60a5fa" font-size="12" font-weight="700">J</text>
+  <text x="104" y="327" fill="#f8fafc" font-size="14" font-weight="600">John Doe</text>
+  <text x="260" y="327" fill="#cbd5e1" font-size="13">john@example.com</text>
+  <rect x="500" y="312" width="65" height="22" rx="4" fill="#8b5cf6" fill-opacity="0.2"/>
+  <text x="512" y="327" fill="#c084fc" font-size="11" font-weight="700">ADMIN</text>
+  <rect x="630" y="312" width="85" height="22" rx="4" fill="#10b981" fill-opacity="0.2"/>
+  <text x="640" y="327" fill="#34d399" font-size="11" font-weight="700">APPROVED</text>
+  <rect x="790" y="312" width="55" height="22" rx="4" fill="#1e293b"/>
+  <text x="800" y="327" fill="#38bdf8" font-family="monospace" font-size="12">::1</text>
+  <text x="940" y="327" fill="#f8fafc" font-size="13">11/11/2026, 12:13:47 pm</text>
+
+  <!-- Log Row 2 -->
+  <line x1="44" y1="410" x2="1150" y2="410" stroke="#1f2937" stroke-width="1"/>
+  <circle cx="80" cy="382" r="14" fill="#10b981" fill-opacity="0.2"/>
+  <text x="75" y="387" fill="#34d399" font-size="12" font-weight="700">R</text>
+  <text x="104" y="387" fill="#f8fafc" font-size="14" font-weight="600">rachana</text>
+  <text x="260" y="387" fill="#cbd5e1" font-size="13">shivalingurachana461@gmail.com</text>
+  <rect x="500" y="372" width="55" height="22" rx="4" fill="#3b82f6" fill-opacity="0.2"/>
+  <text x="512" y="387" fill="#60a5fa" font-size="11" font-weight="700">USER</text>
+  <rect x="630" y="372" width="85" height="22" rx="4" fill="#10b981" fill-opacity="0.2"/>
+  <text x="640" y="387" fill="#34d399" font-size="11" font-weight="700">APPROVED</text>
+  <rect x="790" y="372" width="55" height="22" rx="4" fill="#1e293b"/>
+  <text x="800" y="387" fill="#38bdf8" font-family="monospace" font-size="12">::1</text>
+  <text x="940" y="387" fill="#f8fafc" font-size="13">11/11/2026, 12:01:19 pm</text>
+
+  <!-- Log Row 3 -->
+  <line x1="44" y1="470" x2="1150" y2="470" stroke="#1f2937" stroke-width="1"/>
+  <circle cx="80" cy="442" r="14" fill="#3b82f6" fill-opacity="0.2"/>
+  <text x="75" y="447" fill="#60a5fa" font-size="12" font-weight="700">J</text>
+  <text x="104" y="447" fill="#f8fafc" font-size="14" font-weight="600">John Doe</text>
+  <text x="260" y="447" fill="#cbd5e1" font-size="13">john@example.com</text>
+  <rect x="500" y="432" width="65" height="22" rx="4" fill="#8b5cf6" fill-opacity="0.2"/>
+  <text x="512" y="447" fill="#c084fc" font-size="11" font-weight="700">ADMIN</text>
+  <rect x="630" y="432" width="85" height="22" rx="4" fill="#10b981" fill-opacity="0.2"/>
+  <text x="640" y="447" fill="#34d399" font-size="11" font-weight="700">APPROVED</text>
+  <rect x="790" y="432" width="55" height="22" rx="4" fill="#1e293b"/>
+  <text x="800" y="447" fill="#38bdf8" font-family="monospace" font-size="12">::1</text>
+  <text x="940" y="447" fill="#f8fafc" font-size="13">11/11/2026, 12:01:00 pm</text>
+
+  <!-- Log Row 4 -->
+  <line x1="44" y1="530" x2="1150" y2="530" stroke="#1f2937" stroke-width="1"/>
+  <circle cx="80" cy="502" r="14" fill="#10b981" fill-opacity="0.2"/>
+  <text x="75" y="507" fill="#34d399" font-size="12" font-weight="700">A</text>
+  <text x="104" y="507" fill="#f8fafc" font-size="14" font-weight="600">Alex Rivera</text>
+  <text x="260" y="507" fill="#cbd5e1" font-size="13">alex.rivera@enterprise.com</text>
+  <rect x="500" y="492" width="55" height="22" rx="4" fill="#3b82f6" fill-opacity="0.2"/>
+  <text x="512" y="507" fill="#60a5fa" font-size="11" font-weight="700">USER</text>
+  <rect x="630" y="492" width="85" height="22" rx="4" fill="#10b981" fill-opacity="0.2"/>
+  <text x="640" y="507" fill="#34d399" font-size="11" font-weight="700">APPROVED</text>
+  <rect x="790" y="492" width="95" height="22" rx="4" fill="#1e293b"/>
+  <text x="798" y="507" fill="#38bdf8" font-family="monospace" font-size="12">172.56.21.9</text>
+  <text x="940" y="507" fill="#f8fafc" font-size="13">11/13/2026, 02:40:12 pm</text>
+
+  <!-- Bottom Note -->
+  <rect x="44" y="580" width="1106" height="40" rx="6" fill="#0f172a"/>
+  <text x="64" y="605" fill="#10b981" font-size="13" font-weight="600">✓ MongoDB Collection:</text>
+  <text x="235" y="605" fill="#94a3b8" font-size="13">Logs are indexed by <tspan fill="#f8fafc" font-family="monospace">loginAt: -1</tspan> inside the <tspan fill="#f8fafc" font-family="monospace">loginlogs</tspan> MongoDB collection for instant audit queries.</text>
+</svg>

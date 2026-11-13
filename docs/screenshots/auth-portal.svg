@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 680" width="100%" height="100%" style="background:#0b0f19; font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#020617"/>
+    </linearGradient>
+    <filter id="shadow3" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#000000" flood-opacity="0.6"/>
+    </filter>
+  </defs>
+
+  <!-- Browser Window Wrapper -->
+  <rect x="20" y="20" width="1160" height="640" rx="12" fill="#0f172a" stroke="#334155" stroke-width="1.5" filter="url(#shadow3)"/>
+
+  <!-- Browser Title Bar -->
+  <path d="M 20 32 Q 20 20 32 20 L 1168 20 Q 1180 20 1180 32 L 1180 64 L 20 64 Z" fill="#1e293b"/>
+  <circle cx="46" cy="42" r="6" fill="#ef4444"/>
+  <circle cx="66" cy="42" r="6" fill="#f59e0b"/>
+  <circle cx="86" cy="42" r="6" fill="#10b981"/>
+  
+  <!-- Address Bar -->
+  <rect x="130" y="30" width="920" height="26" rx="6" fill="#0f172a" stroke="#334155" stroke-width="1"/>
+  <text x="145" y="47" fill="#94a3b8" font-size="12">https://approval-portal-production-9d74e9a4.up.railway.app/register</text>
+
+  <!-- Centered Auth Card -->
+  <rect x="360" y="100" width="480" height="520" rx="14" fill="#111827" stroke="#1f2937" stroke-width="1.5" filter="url(#shadow3)"/>
+
+  <!-- Logo & Title -->
+  <circle cx="600" cy="145" r="22" fill="#3b82f6"/>
+  <path d="M 592 147 L 598 141 L 608 151 Z" fill="#ffffff"/>
+  <text x="600" y="195" fill="#f8fafc" font-size="20" font-weight="700" text-anchor="middle">Create an Account</text>
+  <text x="600" y="215" fill="#94a3b8" font-size="12" text-anchor="middle">Role-Based Access &amp; Administrative Review System</text>
+
+  <!-- Role Selection Toggle -->
+  <rect x="390" y="235" width="420" height="42" rx="8" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+  <!-- Selected Role: Standard User -->
+  <rect x="393" y="238" width="205" height="36" rx="6" fill="#3b82f6"/>
+  <text x="495" y="261" fill="#ffffff" font-size="12" font-weight="600" text-anchor="middle">👤 Standard User (Pending)</text>
+  <!-- Unselected Role: Administrator -->
+  <text x="705" y="261" fill="#94a3b8" font-size="12" font-weight="500" text-anchor="middle">🛡️ Administrator</text>
+
+  <!-- Form Fields -->
+  <!-- Name Input -->
+  <text x="390" y="305" fill="#cbd5e1" font-size="12" font-weight="600">FULL NAME</text>
+  <rect x="390" y="315" width="420" height="40" rx="6" fill="#0f172a" stroke="#334155" stroke-width="1"/>
+  <text x="405" y="340" fill="#f8fafc" font-size="13">Rachana Shivalingu</text>
+
+  <!-- Email Input -->
+  <text x="390" y="380" fill="#cbd5e1" font-size="12" font-weight="600">EMAIL ADDRESS</text>
+  <rect x="390" y="390" width="420" height="40" rx="6" fill="#0f172a" stroke="#334155" stroke-width="1"/>
+  <text x="405" y="415" fill="#f8fafc" font-size="13">shivalingurachana461@gmail.com</text>
+
+  <!-- Password Input -->
+  <text x="390" y="455" fill="#cbd5e1" font-size="12" font-weight="600">SECURE PASSWORD</text>
+  <rect x="390" y="465" width="420" height="40" rx="6" fill="#0f172a" stroke="#334155" stroke-width="1"/>
+  <text x="405" y="493" fill="#64748b" font-size="18">••••••••••••••••</text>
+
+  <!-- Submit Button -->
+  <rect x="390" y="525" width="420" height="44" rx="8" fill="#3b82f6"/>
+  <text x="600" y="552" fill="#ffffff" font-size="14" font-weight="700" text-anchor="middle">Register Account</text>
+
+  <!-- Notice -->
+  <rect x="390" y="582" width="420" height="24" rx="4" fill="#f59e0b" fill-opacity="0.1"/>
+  <text x="600" y="598" fill="#fbbf24" font-size="11" text-anchor="middle">⚠️ New user accounts require administrator approval before logging in.</text>
+</svg>
