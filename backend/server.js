@@ -25,8 +25,8 @@ const frontendDist = path.join(__dirname, '../frontend/dist');
 app.use(express.static(frontendDist));
 
 // Catch-all route to serve the React application
-app.get('*', (req, res) => {
-  if (!req.path.startsWith('/api')) {
+app.use((req, res) => {
+  if (req.method === 'GET' && !req.path.startsWith('/api')) {
     res.sendFile(path.join(frontendDist, 'index.html'));
   } else {
     res.status(404).json({ message: 'API route not found' });
